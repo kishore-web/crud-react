@@ -10,6 +10,9 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<EmpListing/>} />
+          <Route path='/employee/create' element={<EmpCreate/>} />
+          <Route path='/employee/detail/:empid' element={<EmpDetail/>} />
+          <Route path='/employee/edit/:id' element={<EmpEdit/>} />
         </Routes>
       </Router>
     </div>
