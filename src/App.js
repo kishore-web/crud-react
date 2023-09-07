@@ -1,6 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import EmpListing from "./Components/EmpListing";
+import EmpDetail from "./Components/EmpDetail";
+import EmpEdit from "./Components/EmpEdit";
+import EmpCreate from "./Components/EmpCreate";
 
 function App() {
   return (
